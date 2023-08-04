@@ -1,3 +1,4 @@
+import 'package:economist/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -216,7 +217,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
     Text('Search Screen'),
     MyCardList(),
     Text('Notifications Screen'),
-    Text('Settings Screen'),
+    SettingsPage()
   ];
 
   void _onItemTapped(int index) {
