@@ -77,8 +77,6 @@ class _ApplicationFormState extends State<ApplicationForm> {
                       });
                     },
                     decoration: InputDecoration(labelText: 'First Name',border: OutlineInputBorder()),
-                
-                
                     validator: (value) {
                       if (value=='') {
                         return 'Please enter your first name';
