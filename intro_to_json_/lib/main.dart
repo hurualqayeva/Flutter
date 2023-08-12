@@ -122,7 +122,7 @@ class RichTextInfo extends StatelessWidget {
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.normal,
-              color: Colors.blue, // You can customize the style here
+              color: Colors.blue, 
             ),
           ),
         ],
