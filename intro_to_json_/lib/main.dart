@@ -10,7 +10,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(useMaterial3: true),
       debugShowCheckedModeBanner: false,
       home: const BookList(),
     );
@@ -23,7 +22,6 @@ class BookList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       appBar: AppBar(
         title: const Text('Book List'),
       ),
@@ -87,20 +85,47 @@ class BookDetails extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              'Author: ${book['author']}',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: 8),
-            Text('Published Year: ${book['published_year']}'),
-            SizedBox(height: 8),
-            Text('Genres: ${book['genre'].join(', ')}'),
-            SizedBox(height: 8),
-            Text('Rating: ${book['rating']}'),
-            SizedBox(height: 16),
-            Text('Description: ${book['description']}'),
+            RichTextInfo(label: 'Author:', value: book['author']),
+            Divider(),
+            RichTextInfo(label: 'Published Year:', value: book['published_year'].toString()),
+            Divider(),
+            RichTextInfo(label: 'Genres:', value: book['genre'].join(', ')),
+            Divider(),
+            RichTextInfo(label: 'Rating:', value: book['rating'].toString()),
+            Divider(),
+            RichTextInfo(label: 'Description:', value: book['description']),
           ],
         ),
+      ),
+    );
+  }
+}
+
+class RichTextInfo extends StatelessWidget {
+  final String label;
+  final String value;
+
+  const RichTextInfo({required this.label, required this.value});
+
+  @override
+  Widget build(BuildContext context) {
+    return RichText(
+      text: TextSpan(
+        style: TextStyle(
+          fontSize: 18,
+          color: Colors.black,
+        ),
+        children: [
+          TextSpan(text: '$label '),
+          TextSpan(
+            text: value,
+            style: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.normal,
+              color: Colors.blue, // You can customize the style here
+            ),
+          ),
+        ],
       ),
     );
   }

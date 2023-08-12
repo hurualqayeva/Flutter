@@ -1,35 +1,85 @@
-{"books":[
-    {
-      "title": "1984",
-      "author": "George Orwell",
-      "published_year": 1949,
-      "genre": ["Dystopian", "Science Fiction"],
-      "rating": 4.5,
-      "description": "A classic novel depicting a totalitarian society and the struggle for individuality and truth."
-    },
-    {
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "published_year": 1960,
-      "genre": ["Fiction", "Coming-of-Age"],
-      "rating": 4.8,
-      "description": "A powerful story that addresses issues of race and injustice through the eyes of a young girl."
-    },
-    {
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "published_year": 1925,
-      "genre": ["Fiction", "Classics"],
-      "rating": 4.3,
-      "description": "An exploration of the American Dream and the excesses of the Jazz Age, set in the Roaring Twenties."
-    },
-    {
-      "title": "Harry Potter and the Sorcerer's Stone",
-      "author": "J.K. Rowling",
-      "published_year": 1997,
-      "genre": ["Fantasy", "Young Adult"],
-      "rating": 4.7,
-      "description": "The first book in the beloved series following the journey of a young wizard and his friends at Hogwarts School of Witchcraft and Wizardry."
-    }
-  ]}
+{
+    "books": [
+      {
+        "title": "1984",
+        "author": "George Orwell",
+        "published_year": 1949,
+        "genre": ["Dystopian", "Science Fiction"],
+        "rating": 4.5,
+        "description": "A classic novel depicting a totalitarian society and the struggle for individuality and truth."
+      },
+      {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published_year": 1960,
+        "genre": ["Fiction", "Coming-of-Age"],
+        "rating": 4.8,
+        "description": "A powerful story that addresses issues of race and injustice through the eyes of a young girl."
+      },
+      {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published_year": 1925,
+        "genre": ["Fiction", "Classics"],
+        "rating": 4.3,
+        "description": "An exploration of the American Dream and the excesses of the Jazz Age, set in the Roaring Twenties."
+      },
+      {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "published_year": 1997,
+        "genre": ["Fantasy", "Young Adult"],
+        "rating": 4.7,
+        "description": "The first book in the beloved series following the journey of a young wizard and his friends at Hogwarts School of Witchcraft and Wizardry."
+      },
+      {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published_year": 1813,
+        "genre": ["Romance", "Classics"],
+        "rating": 4.6,
+        "description": "A classic tale of love and social norms in early 19th-century England."
+      },
+      {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "published_year": 1937,
+        "genre": ["Fantasy", "Adventure"],
+        "rating": 4.7,
+        "description": "The enchanting prelude to The Lord of the Rings, following Bilbo Baggins on his unexpected journey."
+      },
+      {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "published_year": 1851,
+        "genre": ["Adventure", "Classics"],
+        "rating": 4.1,
+        "description": "A legendary story of Captain Ahab's obsession with the white whale, Moby-Dick."
+      },
+      {
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "published_year": 1847,
+        "genre": ["Gothic", "Romance"],
+        "rating": 4.4,
+        "description": "The tale of an orphaned governess and her journey to self-discovery, love, and independence."
+      },
+      {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "published_year": 1951,
+        "genre": ["Fiction", "Coming-of-Age"],
+        "rating": 4.0,
+        "description": "A story of teenage angst and rebellion, following Holden Caulfield in the days after being expelled from prep school."
+      },
+      {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "published_year": 1932,
+        "genre": ["Dystopian", "Science Fiction"],
+        "rating": 4.2,
+        "description": "A dystopian vision of a future society where advanced technology and social engineering have eliminated suffering, but at a profound cost."
+      }
+    ]
+  }
   
